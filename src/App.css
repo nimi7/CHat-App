@@ -1,0 +1,20 @@
+.message-container {
+  width: 100%;
+  height: 100%;
+  /* overflow-y: scroll;
+    overflow-x: hidden; */
+}
+
+.Background {
+  background: url("https://thumbs.dreamstime.com/z/short-message-service-sms-blank-bubbles-set-vector-illustration-83601468.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 480px) {
+  .Background {
+    background: none;
+  }
+}
+
